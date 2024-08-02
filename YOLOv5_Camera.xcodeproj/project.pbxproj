@@ -8,12 +8,29 @@
 
 /* Begin PBXBuildFile section */
 		276022E92C5D40C500266E18 /* YOLOv5_CameraApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276022E82C5D40C500266E18 /* YOLOv5_CameraApp.swift */; };
-		276022EB2C5D40C500266E18 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276022EA2C5D40C500266E18 /* ContentView.swift */; };
 		276022ED2C5D40C700266E18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 276022EC2C5D40C700266E18 /* Assets.xcassets */; };
 		276022F02C5D40C700266E18 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 276022EF2C5D40C700266E18 /* Preview Assets.xcassets */; };
 		276022FA2C5D40C700266E18 /* YOLOv5_CameraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276022F92C5D40C700266E18 /* YOLOv5_CameraTests.swift */; };
 		276023042C5D40C700266E18 /* YOLOv5_CameraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276023032C5D40C700266E18 /* YOLOv5_CameraUITests.swift */; };
 		276023062C5D40C700266E18 /* YOLOv5_CameraUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276023052C5D40C700266E18 /* YOLOv5_CameraUITestsLaunchTests.swift */; };
+		276023152C5D438900266E18 /* CoreML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 276023142C5D438900266E18 /* CoreML.framework */; };
+		276023172C5D439700266E18 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 276023162C5D439700266E18 /* AVFoundation.framework */; };
+		276023192C5D43A200266E18 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 276023182C5D43A200266E18 /* CoreVideo.framework */; };
+		2760231B2C5D43D700266E18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2760231A2C5D43D700266E18 /* Main.storyboard */; };
+		2760231C2C5D43D700266E18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2760231A2C5D43D700266E18 /* Main.storyboard */; };
+		2760231D2C5D43D700266E18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2760231A2C5D43D700266E18 /* Main.storyboard */; };
+		2760231F2C5D47CD00266E18 /* CaptureViewPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2760231E2C5D47CD00266E18 /* CaptureViewPreviewView.swift */; };
+		276023202C5D47CD00266E18 /* CaptureViewPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2760231E2C5D47CD00266E18 /* CaptureViewPreviewView.swift */; };
+		276023212C5D47CD00266E18 /* CaptureViewPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2760231E2C5D47CD00266E18 /* CaptureViewPreviewView.swift */; };
+		276023232C5D4B8D00266E18 /* VideoCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276023222C5D4B8D00266E18 /* VideoCapture.swift */; };
+		276023242C5D4B8D00266E18 /* VideoCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276023222C5D4B8D00266E18 /* VideoCapture.swift */; };
+		276023252C5D4B8D00266E18 /* VideoCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276023222C5D4B8D00266E18 /* VideoCapture.swift */; };
+		276023272C5D4C8700266E18 /* CIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276023262C5D4C8700266E18 /* CIImage.swift */; };
+		276023282C5D4C8700266E18 /* CIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276023262C5D4C8700266E18 /* CIImage.swift */; };
+		276023292C5D4C8700266E18 /* CIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276023262C5D4C8700266E18 /* CIImage.swift */; };
+		2760232B2C5D4D2400266E18 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2760232A2C5D4D2400266E18 /* ViewController.swift */; };
+		2760232C2C5D4D2400266E18 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2760232A2C5D4D2400266E18 /* ViewController.swift */; };
+		2760232D2C5D4D2400266E18 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2760232A2C5D4D2400266E18 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +53,6 @@
 /* Begin PBXFileReference section */
 		276022E52C5D40C500266E18 /* YOLOv5_Camera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YOLOv5_Camera.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		276022E82C5D40C500266E18 /* YOLOv5_CameraApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YOLOv5_CameraApp.swift; sourceTree = "<group>"; };
-		276022EA2C5D40C500266E18 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		276022EC2C5D40C700266E18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		276022EF2C5D40C700266E18 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		276022F52C5D40C700266E18 /* YOLOv5_CameraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YOLOv5_CameraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +60,15 @@
 		276022FF2C5D40C700266E18 /* YOLOv5_CameraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YOLOv5_CameraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		276023032C5D40C700266E18 /* YOLOv5_CameraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YOLOv5_CameraUITests.swift; sourceTree = "<group>"; };
 		276023052C5D40C700266E18 /* YOLOv5_CameraUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YOLOv5_CameraUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		276023122C5D41F200266E18 /* YOLOv5-Camera-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "YOLOv5-Camera-Info.plist"; sourceTree = SOURCE_ROOT; };
+		276023142C5D438900266E18 /* CoreML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreML.framework; path = System/Library/Frameworks/CoreML.framework; sourceTree = SDKROOT; };
+		276023162C5D439700266E18 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		276023182C5D43A200266E18 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		2760231A2C5D43D700266E18 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		2760231E2C5D47CD00266E18 /* CaptureViewPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureViewPreviewView.swift; sourceTree = "<group>"; };
+		276023222C5D4B8D00266E18 /* VideoCapture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCapture.swift; sourceTree = "<group>"; };
+		276023262C5D4C8700266E18 /* CIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CIImage.swift; sourceTree = "<group>"; };
+		2760232A2C5D4D2400266E18 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +76,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				276023172C5D439700266E18 /* AVFoundation.framework in Frameworks */,
+				276023152C5D438900266E18 /* CoreML.framework in Frameworks */,
+				276023192C5D43A200266E18 /* CoreVideo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +106,7 @@
 				276022F82C5D40C700266E18 /* YOLOv5_CameraTests */,
 				276023022C5D40C700266E18 /* YOLOv5_CameraUITests */,
 				276022E62C5D40C500266E18 /* Products */,
+				276023132C5D438800266E18 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,8 +123,13 @@
 		276022E72C5D40C500266E18 /* YOLOv5_Camera */ = {
 			isa = PBXGroup;
 			children = (
+				276023122C5D41F200266E18 /* YOLOv5-Camera-Info.plist */,
 				276022E82C5D40C500266E18 /* YOLOv5_CameraApp.swift */,
-				276022EA2C5D40C500266E18 /* ContentView.swift */,
+				2760231E2C5D47CD00266E18 /* CaptureViewPreviewView.swift */,
+				276023222C5D4B8D00266E18 /* VideoCapture.swift */,
+				276023262C5D4C8700266E18 /* CIImage.swift */,
+				2760232A2C5D4D2400266E18 /* ViewController.swift */,
+				2760231A2C5D43D700266E18 /* Main.storyboard */,
 				276022EC2C5D40C700266E18 /* Assets.xcassets */,
 				276022EE2C5D40C700266E18 /* Preview Content */,
 			);
@@ -125,6 +159,16 @@
 				276023052C5D40C700266E18 /* YOLOv5_CameraUITestsLaunchTests.swift */,
 			);
 			path = YOLOv5_CameraUITests;
+			sourceTree = "<group>";
+		};
+		276023132C5D438800266E18 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				276023182C5D43A200266E18 /* CoreVideo.framework */,
+				276023162C5D439700266E18 /* AVFoundation.framework */,
+				276023142C5D438900266E18 /* CoreML.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +275,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2760231B2C5D43D700266E18 /* Main.storyboard in Resources */,
 				276022F02C5D40C700266E18 /* Preview Assets.xcassets in Resources */,
 				276022ED2C5D40C700266E18 /* Assets.xcassets in Resources */,
 			);
@@ -240,6 +285,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2760231C2C5D43D700266E18 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,6 +293,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2760231D2C5D43D700266E18 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,7 +304,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				276022EB2C5D40C500266E18 /* ContentView.swift in Sources */,
+				2760232B2C5D4D2400266E18 /* ViewController.swift in Sources */,
+				276023272C5D4C8700266E18 /* CIImage.swift in Sources */,
+				276023232C5D4B8D00266E18 /* VideoCapture.swift in Sources */,
+				2760231F2C5D47CD00266E18 /* CaptureViewPreviewView.swift in Sources */,
 				276022E92C5D40C500266E18 /* YOLOv5_CameraApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,7 +316,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2760232C2C5D4D2400266E18 /* ViewController.swift in Sources */,
 				276022FA2C5D40C700266E18 /* YOLOv5_CameraTests.swift in Sources */,
+				276023242C5D4B8D00266E18 /* VideoCapture.swift in Sources */,
+				276023202C5D47CD00266E18 /* CaptureViewPreviewView.swift in Sources */,
+				276023282C5D4C8700266E18 /* CIImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,7 +328,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2760232D2C5D4D2400266E18 /* ViewController.swift in Sources */,
+				276023292C5D4C8700266E18 /* CIImage.swift in Sources */,
+				276023252C5D4B8D00266E18 /* VideoCapture.swift in Sources */,
 				276023042C5D40C700266E18 /* YOLOv5_CameraUITests.swift in Sources */,
+				276023212C5D47CD00266E18 /* CaptureViewPreviewView.swift in Sources */,
 				276023062C5D40C700266E18 /* YOLOv5_CameraUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -425,6 +483,10 @@
 				DEVELOPMENT_TEAM = BZXTJXXH4U;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "YOLOv5-Camera-Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "$(PRODUCT_NAME)";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -454,6 +516,10 @@
 				DEVELOPMENT_TEAM = BZXTJXXH4U;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "YOLOv5-Camera-Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "$(PRODUCT_NAME)";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
