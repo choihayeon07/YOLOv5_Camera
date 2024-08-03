@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		276022E92C5D40C500266E18 /* YOLOv5_CameraApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276022E82C5D40C500266E18 /* YOLOv5_CameraApp.swift */; };
 		276022ED2C5D40C700266E18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 276022EC2C5D40C700266E18 /* Assets.xcassets */; };
 		276022F02C5D40C700266E18 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 276022EF2C5D40C700266E18 /* Preview Assets.xcassets */; };
 		276022FA2C5D40C700266E18 /* YOLOv5_CameraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276022F92C5D40C700266E18 /* YOLOv5_CameraTests.swift */; };
@@ -31,6 +30,15 @@
 		2760232B2C5D4D2400266E18 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2760232A2C5D4D2400266E18 /* ViewController.swift */; };
 		2760232C2C5D4D2400266E18 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2760232A2C5D4D2400266E18 /* ViewController.swift */; };
 		2760232D2C5D4D2400266E18 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2760232A2C5D4D2400266E18 /* ViewController.swift */; };
+		276023692C5D52B000266E18 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276023682C5D52B000266E18 /* AppDelegate.swift */; };
+		2760236A2C5D52B000266E18 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276023682C5D52B000266E18 /* AppDelegate.swift */; };
+		2760236B2C5D52B000266E18 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276023682C5D52B000266E18 /* AppDelegate.swift */; };
+		2760236D2C5D53A500266E18 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2760236C2C5D53A500266E18 /* SceneDelegate.swift */; };
+		2760236E2C5D53A500266E18 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2760236C2C5D53A500266E18 /* SceneDelegate.swift */; };
+		2760236F2C5D53A500266E18 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2760236C2C5D53A500266E18 /* SceneDelegate.swift */; };
+		276023712C5D54EE00266E18 /* YOLOv5.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 276023702C5D54EE00266E18 /* YOLOv5.mlmodel */; };
+		276023722C5D54EE00266E18 /* YOLOv5.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 276023702C5D54EE00266E18 /* YOLOv5.mlmodel */; };
+		276023732C5D54EE00266E18 /* YOLOv5.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 276023702C5D54EE00266E18 /* YOLOv5.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +60,6 @@
 
 /* Begin PBXFileReference section */
 		276022E52C5D40C500266E18 /* YOLOv5_Camera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YOLOv5_Camera.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		276022E82C5D40C500266E18 /* YOLOv5_CameraApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YOLOv5_CameraApp.swift; sourceTree = "<group>"; };
 		276022EC2C5D40C700266E18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		276022EF2C5D40C700266E18 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		276022F52C5D40C700266E18 /* YOLOv5_CameraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YOLOv5_CameraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -69,6 +76,9 @@
 		276023222C5D4B8D00266E18 /* VideoCapture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCapture.swift; sourceTree = "<group>"; };
 		276023262C5D4C8700266E18 /* CIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CIImage.swift; sourceTree = "<group>"; };
 		2760232A2C5D4D2400266E18 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		276023682C5D52B000266E18 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2760236C2C5D53A500266E18 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		276023702C5D54EE00266E18 /* YOLOv5.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = YOLOv5.mlmodel; path = "../../../../Desktop/yolov5-master/YOLOv5.mlmodel"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,12 +133,14 @@
 		276022E72C5D40C500266E18 /* YOLOv5_Camera */ = {
 			isa = PBXGroup;
 			children = (
+				276023702C5D54EE00266E18 /* YOLOv5.mlmodel */,
 				276023122C5D41F200266E18 /* YOLOv5-Camera-Info.plist */,
-				276022E82C5D40C500266E18 /* YOLOv5_CameraApp.swift */,
 				2760231E2C5D47CD00266E18 /* CaptureViewPreviewView.swift */,
 				276023222C5D4B8D00266E18 /* VideoCapture.swift */,
 				276023262C5D4C8700266E18 /* CIImage.swift */,
 				2760232A2C5D4D2400266E18 /* ViewController.swift */,
+				276023682C5D52B000266E18 /* AppDelegate.swift */,
+				2760236C2C5D53A500266E18 /* SceneDelegate.swift */,
 				2760231A2C5D43D700266E18 /* Main.storyboard */,
 				276022EC2C5D40C700266E18 /* Assets.xcassets */,
 				276022EE2C5D40C700266E18 /* Preview Content */,
@@ -304,11 +316,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				276023692C5D52B000266E18 /* AppDelegate.swift in Sources */,
+				2760236D2C5D53A500266E18 /* SceneDelegate.swift in Sources */,
 				2760232B2C5D4D2400266E18 /* ViewController.swift in Sources */,
 				276023272C5D4C8700266E18 /* CIImage.swift in Sources */,
+				276023712C5D54EE00266E18 /* YOLOv5.mlmodel in Sources */,
 				276023232C5D4B8D00266E18 /* VideoCapture.swift in Sources */,
 				2760231F2C5D47CD00266E18 /* CaptureViewPreviewView.swift in Sources */,
-				276022E92C5D40C500266E18 /* YOLOv5_CameraApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,8 +330,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2760236A2C5D52B000266E18 /* AppDelegate.swift in Sources */,
+				2760236E2C5D53A500266E18 /* SceneDelegate.swift in Sources */,
 				2760232C2C5D4D2400266E18 /* ViewController.swift in Sources */,
 				276022FA2C5D40C700266E18 /* YOLOv5_CameraTests.swift in Sources */,
+				276023722C5D54EE00266E18 /* YOLOv5.mlmodel in Sources */,
 				276023242C5D4B8D00266E18 /* VideoCapture.swift in Sources */,
 				276023202C5D47CD00266E18 /* CaptureViewPreviewView.swift in Sources */,
 				276023282C5D4C8700266E18 /* CIImage.swift in Sources */,
@@ -332,8 +349,11 @@
 				276023292C5D4C8700266E18 /* CIImage.swift in Sources */,
 				276023252C5D4B8D00266E18 /* VideoCapture.swift in Sources */,
 				276023042C5D40C700266E18 /* YOLOv5_CameraUITests.swift in Sources */,
+				2760236B2C5D52B000266E18 /* AppDelegate.swift in Sources */,
+				276023732C5D54EE00266E18 /* YOLOv5.mlmodel in Sources */,
 				276023212C5D47CD00266E18 /* CaptureViewPreviewView.swift in Sources */,
 				276023062C5D40C700266E18 /* YOLOv5_CameraUITestsLaunchTests.swift in Sources */,
+				2760236F2C5D53A500266E18 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
